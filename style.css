@@ -1,0 +1,201 @@
+/*
+ * IP Services Block
+ */
+.ip-services {
+  padding: 50px 30px 35px;
+  margin: 0 0 60px 0;
+  background: #f9f9f9;
+}
+.ip-services__title {
+  margin: 0 0 30px 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #64a104;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.ip-services__items {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media(min-width: 700px) {
+  .ip-services__items {
+    max-width: 590px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(min-width: 1000px) {
+  .ip-services__items {
+    max-width: 900px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.ip-services__item {
+  margin-bottom: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 202px;
+  width: 280px;
+  position: relative;
+  transition: all linear .2s;
+  text-align: center;
+}
+@media(min-width: 700px) {
+  .ip-services__item {
+    margin-bottom: 1em;
+  }
+}
+.ip-services__link {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+  text-decoration: none;
+  color: #363636;
+  border-radius: 4px;
+  transition: all linear .2s;
+}
+.ip-services__link:hover {
+  /* width: 110%; */
+  /* left: -5%; */
+  /* top: -5%; */
+  box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 11%);
+  transform: scale(1.1);
+}
+.ip-services__img {
+  max-width: 100%;
+  height: auto;
+}
+.ip-services__name {
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  float: left;
+  padding: 12px 0 14px;
+}
+.ip-services__link:hover .ip-services__name {
+    padding: 15px 0 17px;
+}
+.ip-services__price {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 11px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #2f2d18;
+  padding: 5px 8px 7px 10px;
+  background: #f4e034;
+  border-radius: 4px 4px 4px 20px;
+}
+.ip-services__link:hover .ip-services__price {
+    display: block;
+}
+
+/*
+ * IP Services Block
+ */
+.ip-services {
+  padding: 50px 30px 35px;
+  margin: 0 0 60px 0;
+  background: #f9f9f9;
+}
+.ip-services__title {
+  margin: 0 0 30px 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #64a104;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.ip-services__items {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media(min-width: 700px) {
+  .ip-services__items {
+    max-width: 590px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(min-width: 1000px) {
+  .ip-services__items {
+    max-width: 900px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.ip-services__item {
+  margin-bottom: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 202px;
+  width: 280px;
+  position: relative;
+  transition: all linear .2s;
+  text-align: center;
+}
+@media(min-width: 700px) {
+  .ip-services__item {
+    margin-bottom: 1em;
+  }
+}
+.ip-services__link {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+  text-decoration: none;
+  color: #363636;
+  border-radius: 4px;
+  transition: all linear .2s;
+}
+.ip-services__link:hover {
+  /* width: 110%; */
+  /* left: -5%; */
+  /* top: -5%; */
+  box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 11%);
+  transform: scale(1.1);
+}
+.ip-services__img {
+  max-width: 100%;
+  height: auto;
+}
+.ip-services__name {
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  float: left;
+  padding: 12px 0 14px;
+}
+.ip-services__link:hover .ip-services__name {
+    padding: 15px 0 17px;
+}
+.ip-services__price {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 11px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #2f2d18;
+  padding: 5px 8px 7px 10px;
+  background: #f4e034;
+  border-radius: 4px 4px 4px 20px;
+}
+.ip-services__link:hover .ip-services__price {
+    display: block;
+}

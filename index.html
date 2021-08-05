@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IP Services Block</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+
+<div class="ip-services">
+  <h2 class="ip-services__title">Больше возможностей:</h2>
+  <div class="ip-services__items">
+    <div class="ip-services__item">
+        <a class="ip-services__link" href="#" title="Внутренняя отделка">
+          <img alt="Внутренняя отделка" class="ip-services__img" src="images/service_1.jpg">
+          <div class="ip-services__name">Внутренняя отделка под ключ</div>
+          <div class="ip-services__price">400 руб./м<sup>2</sup></div>
+        </a>
+    </div>
+    <div class="ip-services__item">
+      <a class="ip-services__link" href="#" title="Внешняя отделка">
+        <img alt="Внешняя отделк" class="ip-services__img" src="images/service_2.jpg">
+        <div class="ip-services__name">Внешняя отделка</div>
+        <div class="ip-services__price">от 1 800 руб./м<sup>2</sup></div>
+      </a>
+    </div>
+    <div class="ip-services__item">
+      <a class="ip-services__link" href="#" title="Остекление с выносом">
+        <img alt="Остекление с выносом" class="ip-services__img" src="images/service_3.jpg">
+        <div class="ip-services__name">Остекление с выносом</div>
+        <div class="ip-services__price">1 800 руб./м<sup>2</sup></div>
+      </a>
+    </div>
+    <div class="ip-services__item">
+      <a class="ip-services__link" href="#" title="Монтаж крыши">
+        <img alt="Монтаж крыши" class="ip-services__img" src="images/service_4.jpg">
+        <div class="ip-services__name">Монтаж крыши</div>
+        <div class="ip-services__price">от 3 800 руб./м<sup>2</sup></div></a>
+    </div>
+    <div class="ip-services__item">
+      <a class="ip-services__link" href="#" title="Ремонт парапета">
+        <img alt="Ремонт парапета" class="ip-services__img" src="images/service_5.jpg">
+        <div class="ip-services__name">Ремонт парапета</div>
+        <div class="ip-services__price">от 2 000 руб./м<sup>2</sup></div>
+      </a>
+    </div>
+   <div class="ip-services__item">
+      <a class="ip-services__link" href="#" title="Панорамное остекление">
+        <img alt="Панорамное остекление" class="ip-services__img" src="images/service_6.jpg">
+        <div class="ip-services__name">Панорамное остекление</div>
+        <div class="ip-services__price">от 5 000 руб./м<sup>2</sup></div>
+      </a>
+    </div> 
+  </div>
+</div>
+
+<script>
+/*
+ * Отменяем действие браузера при клике по ссылке
+ */
+var links = document.getElementsByClassName("ip-services__link");
+for (var i = 0; i < links.length; i++) {
+  links[i].addEventListener("click", function(event) {
+      //console.log('click');
+      event.preventDefault();
+  });
+}
+</script>
+
+</body>
+</html>
